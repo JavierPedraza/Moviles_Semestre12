@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.acelerometro.acelerometro">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACELEROMETRO"
+            android:textSize="30sp" />
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A_X" />
+        <TextView
+            android:id="@+id/tvAX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a_x" />
+
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A_Y" />
+        <TextView
+            android:id="@+id/tvAY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a_y" />
+
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A_Z" />
+        <TextView
+            android:id="@+id/tvAZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a_z" />
+
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Long Euclid" />
+        <TextView
+            android:id="@+id/tvLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="longitud euclidiana" />
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LE MAX" />
+        <TextView
+            android:id="@+id/tvMax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cambio máximo" />
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gravedad" />
+        <TextView
+            android:id="@+id/tvGrav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gravedad" />
+        <TextView
+            android:id="@+id/tvContador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cuenta" />
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
