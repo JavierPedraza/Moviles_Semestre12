@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos_de_pizzas">
+        <item>Pepperoni</item>
+        <item>Hawaiana</item>
+        <item>Mexicana</item>
+        <item>Americana</item>
+        <item>Napolitana</item>
+        <item>Mediterránea</item>
+    </string-array>
+</resources>

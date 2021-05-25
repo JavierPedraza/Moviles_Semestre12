@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".acelerometro">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACELEROMETRO"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A_X"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tvAX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a_x"
+            android:textColor="@color/white"/>
+
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A_Y"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tvAY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a_y"
+            android:textColor="@color/white"/>
+
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A_Z"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tvAZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a_z"
+            android:textColor="@color/white"/>
+
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Long Euclid"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tvLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="longitud euclidiana"
+            android:textColor="@color/white"/>
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LE MAX"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tvMax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cambio máximo"
+            android:textColor="@color/white"/>
+
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gravedad"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tvGrav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gravedad"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tvContador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cuenta"
+            android:textColor="@color/white"/>
+        <View
+            android:background="#D50000"
+            android:layout_width="match_parent"
+            android:layout_height="1sp">
+        </View>
+
+    </LinearLayout>
+</FrameLayout>
